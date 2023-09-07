@@ -1,0 +1,14 @@
+name: Revalidate API
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Stage
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: ${{ secrets.REVALIDATE_ENDPOINT }}
+          method: 'GET'
