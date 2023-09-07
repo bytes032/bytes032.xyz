@@ -1,3 +1,5 @@
+## Table of contents
+
 ### APY
 APY or Annual Percentage Yield is a financial measure that calculates the return on investment (ROI) of an asset over a given time period. For instance, if you invest $1,000 at 5% APY, you can expect to earn $50 in interest after one year, assuming there's no compounding of the interest earned. With a constant APY rate, the monthly ROI in this example would be 0.42%.
 
