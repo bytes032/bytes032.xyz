@@ -1,4 +1,89 @@
-## Table of Contents
+# Auditor's Glossary
+
+Navigating the complex world of finance, DeFi, and blockchain can be daunting for new auditors.
+
+Feeling the challenge myself, I created a dynamic document, that I'm continuously updating with terms that I encounter on a daily basis.
+
+- [A](#a)
+  - [APY](#apy)
+  - [Automated Market Maker](#automated-market-maker)
+  - [Algorithmic rebalancing](#algorithmic-rebalancing)
+  - [Allocation Mechanism](#allocation-mechanism)
+- [B](#b)
+  - [Balancer](#balancer)
+- [C](#c)
+  - [Collateralization](#collateralization)
+- [D](#d)
+  - [Delegation](#delegation)
+  - [Disbursal](#disbursal)
+  - [Delta Neutrality](#delta-neutrality)
+  - [Dutch Auction](#dutch-auction)
+  - [Derivative](#derivative)
+- [E](#e)
+  - [ERC-20](#erc-20)
+  - [English Auction](#english-auction)
+- [F](#f)
+  - [Flash Loan](#flash-loan)
+  - [Futures](#futures)
+  - [Futures Size Delta](#futures-size-delta)
+  - [Forced Liquidation](#forced-liquidation)
+- [G](#g)
+  - [Governance Token](#governance-token)
+  - [Governance](#governance)
+- [H](#h)
+  - [Hedging](#hedging)
+  - [Hedge](#hedge)
+- [I](#i)
+  - [Impermanent Loss](#impermanent-loss)
+- [J](#j)
+  - [Junior Tranches](#junior-tranches)
+- [L](#l)
+  - [Leverage](#leverage)
+  - [Liquidation](#liquidation)
+  - [Lien](#lien)
+  - [Long](#long)
+  - [Liquidation Surcharge](#liquidation-surcharge)
+  - [Liquidity](#liquidity)
+  - [Liquidity Pool](#liquidity-pool)
+  - [Liquidity Providers](#liquidity-providers)
+  - [Liquidity Token](#liquidity-token)
+  - [Liquid Staking](#liquid-staking)
+- [M](#m)
+  - [Margin](#margin)
+  - [Margin Call](#margin-call)
+  - [Marketcap](#marketcap)
+- [O](#o)
+  - [Oracle](#oracle)
+- [P](#p)
+  - [Pool](#pool)
+  - [Perpetual Futures](#perpetual-futures)
+  - [Perpetual-like derivatives](#perpetual-like-derivatives)
+- [R](#r)
+  - [Rebalance](#rebalance)
+  - [ROI](#roi)
+- [S](#s)
+  - [Senior Tranches](#senior-tranches)
+  - [Slippage](#slippage)
+  - [Stablecoin](#stablecoin)
+  - [Stake](#stake)
+  - [Staking](#staking)
+  - [Short](#short)
+  - [Superfluid Staking](#superfluid-staking)
+  - [Sidechain](#sidechain)
+  - [Sybil Attack](#sybil-attack)
+  - [Sharding](#sharding)
+- [T](#t)
+  - [Token](#token)
+  - [TVL](#tvl)
+  - [TWAP](#twap)
+  - [Tranches](#tranches)
+- [V](#v)
+  - [Volatility](#volatility)
+- [W](#w)
+  - [Wallet](#wallet)
+- [Y](#y)
+  - [Yield Farming](#yield-farming)
+## A
 
 ### APY
 APY or Annual Percentage Yield is a financial measure that calculates the return on investment (ROI) of an asset over a given time period. For instance, if you invest $1,000 at 5% APY, you can expect to earn $50 in interest after one year, assuming there's no compounding of the interest earned. With a constant APY rate, the monthly ROI in this example would be 0.42%.
@@ -7,7 +92,7 @@ APY or Annual Percentage Yield is a financial measure that calculates the return
 
 An Automated Market Maker (AMM) refers to a decentralized pool for trading assets that allows market participants to buy or sell cryptocurrencies without the need for intermediaries. AMMs operate on a non-custodial and permissionless basis, allowing users to retain full control of their assets. While there are various market-making formulas that AMMs utilize, the most prevalent is the constant product market maker, with Uniswap being the most notable example. This formula maintains the product of the reserve assets, which enables liquidity provision for any trade size.
 
-### Algorithmic rebalancing 
+### Algorithmic rebalancing
 
 Rebalancing to an agreed upon value algorithmically.
 
@@ -15,6 +100,7 @@ Rebalancing to an agreed upon value algorithmically.
 
 How do we allocate products to the right participant. Example: auction market, voting.
 
+## B
 ### Balancer
 
 Balancer Pool is an automated market maker that possesses specific properties that allow it to operate as a self-balancing weighted portfolio and price sensor. In contrast to traditional index funds where investors pay fees to managers for portfolio rebalancing, Balancer operates on a different principle: traders who capitalize on arbitrage opportunities rebalance the portfolio and pay fees to the pool's liquidity providers.
@@ -22,10 +108,12 @@ Balancer Pool is an automated market maker that possesses specific properties th
 Balancer utilizes a Constant Mean Market Maker (CMMM) that allows for non-equal weights in pools, such as 80/20 or 50/50, and enables liquidity providers to offer single-sided liquidity. This market-making formula ensures that the pool remains close to the desired 
 portfolio weights while enabling traders to benefit from price inefficiencies.
 
+## C
 ### Collateralization
 
 Collateralization is the act of borrowing deposit assets for the purpose of conducting business activities. By providing collateral for the borrowed funds, individuals can engage in various investment strategies. However, this practice also involves risks as it can amplify both gains and losses. Thus, collateralization is generally considered a riskier option than conducting business activities without borrowing funds.
 
+## D
 ### Delegation
 
 Delegation involves granting permission to an individual, company, or organization to borrow funds by utilizing the deposited collateral of another owner. This practice enables individuals who do not have their own collateral to participate in various business activities, such as borrowing or trading. However, it is important to note that delegation involves risk, as the borrower is responsible for managing the borrowed funds and any associated losses.
@@ -50,6 +138,7 @@ In the context of DeFi and token sales, a Dutch Auction can be an effective way 
 
 A contract that gets its value from the assets in the contract.
 
+## E
 ### ERC-20
 
 A cryptocurrency protocol based on the Ethereum blockchain. An ERC-20 coin, by definition, uses this protocol.
@@ -62,6 +151,7 @@ In the context of DeFi, English Auctions can be employed for selling digital ass
 
 English Auctions provide a transparent price discovery process, allowing the market to determine the value of the asset being auctioned based on supply and demand. However, they can also be susceptible to certain strategic behaviors, such as sniping (placing a bid just before the auction ends to outbid other participants) or collusion among bidders to suppress the final price.
 
+## F
 ### Flash Loan
 
 A Flash Loan is a unique loan that is exclusive to the world of cryptocurrencies. In this type of loan, an asset such as Ethereum or an ERC-20 coin is loaned out only for the duration of one transaction block on the blockchain. Provided the loan is repaid before the next block begins, the borrower is not charged an interest fee.
@@ -82,6 +172,7 @@ Forced Liquidation in the world of cryptocurrencies occurs when an investor or t
 
 Forced Liquidation is a risk that traders take when engaging in leveraged positions. It is important to manage the risks associated with such positions, as failure to do so can result in significant losses. As such, it is critical to ensure that adequate precautions, such as setting stop-loss orders and regularly monitoring positions, are taken to minimize the risks of Forced Liquidation.
 
+## G
 ### Governance Token
 
 A Governance Token is a cryptocurrency token used to control the operations and influence the direction of a coin, token, and/or project. Holding these tokens can be profitable, as their popularity and price appreciation often result in significant returns for investors. In addition, governance token holders may be eligible for other benefits, such as voting rights and rewards
@@ -90,6 +181,7 @@ A Governance Token is a cryptocurrency token used to control the operations and 
 
 The rules by which people (or tokens) have to play by when in a space (e.g. digital ecosystem, game, theme park, country).
 
+## H
 ### Hedging
 
 Hedging is a risk management strategy used in finance to protect against potential losses by taking a counterbalancing position in a related investment or financial instrument. The primary objective of hedging is to reduce or mitigate the risk associated with an existing investment, rather than to generate profits. Hedging can be accomplished using various financial instruments, such as futures, options, swaps, or other derivatives.
@@ -98,14 +190,17 @@ Hedging is a risk management strategy used in finance to protect against potenti
 
 A hedge is a counterbalancing position or investment that is taken to offset potential losses in another investment. It is the actual execution of the hedging strategy. When an investor takes a hedge, they are essentially placing a bet that the market will move in a direction opposite to their existing investment. If the original investment suffers a loss, the hedge will help minimize or compensate for the loss by generating gains, thus providing protection against adverse market movements.
 
+## I
 ### Impermanent Loss
 
 Impermanent Loss is a temporary loss of funds that occurs when liquidity providers deposit their assets into a liquidity pool and the price of the assets in the pool changes. The loss is called "impermanent" because it only occurs when the liquidity provider removes their assets from the pool. Impermanent loss can be mitigated by utilizing strategies such as single-sided liquidity provision, high-fee pools, and dynamic fees.
 
+## J
 ### Junior Tranches
 
 The riskiest of the tranches in DeFi, these offer the highest potential returns but also carry the highest level of risk.
 
+## L
 ### Leverage
 
 Leverage refers to the use of multipliers on exchanges or markets that enable leveraged trading. This means that a trader can use a deposit of 1 BTC to invest in trades with the equivalent power of 10 to 100 BTC, assuming a 10x to 100x leverage ratio. While leveraged trades have the potential to generate significant gains, they also come with increased risk, as any losses are amplified in the same way as gains. In the event of a margin call during times of high volatility and insufficient reserve funds, a liquidation event could result in the loss of the entire deposit. Therefore, leveraging should be approached with caution and proper risk management techniques should be utilized to minimize the risks.
@@ -156,6 +251,7 @@ Liquid staking is like putting your toys in a toy box and getting a ticket in re
 
 In the same way, when you stake your ETH in a staking pool, you get a special token (like a ticket) in return that represents your staked ETH. You can still use your staked ETH whenever you want, but you can also trade the token for other things in the crypto world, like more ETH or other tokens.
 
+##  M
 ### Margin
 
 Margin is a high-risk avenue of borrowed capital that requires collateral to secure the loan. A margin loan amplifies gains for investors or traders, but is also subject to liquidation risk during a margin call.
@@ -168,10 +264,12 @@ A Margin Call occurs when an investor or trader cannot meet the debt obligations
 
 The market cap of a coin, company, or project can provide an indication of its overall value and performance in the market.
 
+## O
 ### Oracle
 
 An Oracle is a data feed that provides high-confidence services to users and other services by supplying current market prices of an asset or assets. The data source must be timely, accurate, and untampered, and may come from singular or decentralized sources dispersed geographically. Accurate and timely information is essential for exchanges and markets to operate efficiently. One of the most well-known oracle protocols is Chainlink (LINK).
 
+## P
 ### Pool
 
 A Pool is a Smart Contract containing shared amounts of assets provided by depositors. Pools are used in Automated Market Makers (AMMs).
@@ -184,6 +282,7 @@ Perpetual futures trading **allows traders to buy or sell an underlying asset w
 
 Perpetual-like derivatives are financial contracts that track the price of an underlying asset (such as Bitcoin, Ethereum, or other cryptocurrencies) and offer investors exposure to the price movements of the asset without actually owning it.
 
+## R
 ### Rebalance
 
 Rebalancing refers to making changes to a portfolio or pool of funds for various reasons, including to gain profits through arbitrage, take or secure profits, or reduce risks to investors or pooled funds. During periods of high volatility, the latter is particularly relevant when margin or leveraged funding is used by traders, investors, or controllers in charge of pooled funds. If market conditions pose a risk to invested funds, mitigation efforts are implemented either autonomously or through manual intervention to reduce risks to invested funds.
@@ -192,6 +291,7 @@ Rebalancing refers to making changes to a portfolio or pool of funds for various
 
 Return On Investment (ROI) refers to the gains or losses on an investment. For instance, if an individual invests $100 in a stock and sells it for $150, the ROI would be 50%. On the other hand, if they sell it for $50, the ROI would be -50%. ROI provides investors with a clear understanding of the performance of an investment, enabling them to make informed decisions about their investment strategy.
 
+## S
 ### Senior Tranches
 
 In DeFi, these tranches are considered the safest and have the highest priority in terms of receiving interest or yield payments. They generally offer lower returns compared to other tranches, as the risk involved is lower.
@@ -242,6 +342,7 @@ An individual splits themselves up by creating identities on a P2P network. Imag
 
 Instead of keeping a physical cup, imagine smashing it on the floor and giving each friend a small piece of the cup. One scalability solution is sharding, which is to break information into small pieces and having different validators keep these pieces. Only the owner of the data can retrieve the information through the private key held.
 
+## T
 ### Token
 
 A token is a type of digital asset that is often built on top of an existing blockchain network. Tokens can be used for a variety of purposes, such as representing ownership in a project or providing access to a particular service or feature. For instance, a user may hold a token that grants them access to a decentralized prediction market or a token that represents a share in a decentralized autonomous organization (DAO).
@@ -266,16 +367,16 @@ In the context of DeFi, tranches are employed in innovative ways to create struc
 
 DeFi tranches are often applied to yield-generating products, such as those involving liquidity provision or lending, to create tiered investment opportunities. Assets within a DeFi protocol may be divided into tranches based on risk exposure, liquidity, or other factors.
 
-
-
+## V
 ### Volatility
 
 Volatility refers to the degree of price variation of an asset over time. For instance, a highly volatile asset may experience significant price swings over short periods of time, while a less volatile asset may experience more stable and predictable price movements. In cryptocurrency, volatility is often attributed to factors such as market sentiment, regulatory changes, and technological developments.
-
+## W
 ### Wallet
 
 A cryptocurrency wallet is a digital tool used to store, manage, and transact cryptocurrencies. Wallets can be either hardware or software-based and can be used to securely store private keys and other important information related to an individual's cryptocurrency holdings.
 
+## Y
 ### Yield Farming
 
 Yield Farming is a process that involves staking or lending cryptocurrencies in DeFi protocols to earn rewards. Yield farming enables users to earn returns on their assets by providing liquidity to various DeFi applications, such as automated market makers, lending protocols, and liquidity pools. The rewards offered to yield farmers typically come in the form of governance tokens or the protocol's native token, which can be sold or reinvested to compound returns.
